@@ -1,0 +1,13 @@
+﻿*.obj
+*.exe
+.vs/
+x64/
+Debug/
+Release/
+course_work/x64/
+course_work/Debug/
+course_work/Release/
+cuda_work.slnx
+.vcxproj
+.filters
+.user
