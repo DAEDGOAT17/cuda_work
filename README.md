@@ -1,4 +1,4 @@
-# My CUDA Learning Journey 🧠⚡
+# My CUDA Learning 
 
 Welcome! This repository is my personal sandbox where I am tracking my progress as I learn high-performance computing and GPU acceleration from scratch. 
 
@@ -7,7 +7,7 @@ Welcome! This repository is my personal sandbox where I am tracking my progress 
 
 ---
 
-## 🚀 What I've Built So Far
+##  What I've Built So Far
 
 ### 1. 1D Vector Addition (`course_work/mp1.cu`)
 *   **The Goal:** Learn how to move data from the CPU to the GPU and add millions of numbers in parallel.
@@ -19,7 +19,7 @@ Welcome! This repository is my personal sandbox where I am tracking my progress 
 
 ---
 
-## 📐 Key Mental Models & Math Notes
+##  Key Mental Models & Math Notes
 
 To make sure I don't forget how the scaling logic works, here is the math I'm tracking for grid configurations:
 
@@ -30,14 +30,14 @@ This ensures that if I have leftover elements, an extra block is automatically c
 
 ---
 
-## 🛠️ My Local Setup Notes
+##  My Local Setup Notes
 *   **IDE:** Microsoft Visual Studio (using the CUDA Runtime templates)
 *   **Target Architecture:** x64 Debug/Release
 *   **Important Fix:** If Visual Studio complains about duplicate symbols (`LNK2005`), remember to right-click the default `kernel.cu` placeholder file and select **Exclude From Build**!
 
 ---
 
-## 📈 Future Milestones I Want to Tackle
+##  Future Milestones I Want to Tackle
 - [ ] Implement a 2D Matrix Multiplication kernel.
 - [ ] Explore Shared Memory allocation to make memory access even faster.
 - [ ] Measure actual execution times between a standard CPU `for` loop and my GPU kernels.
