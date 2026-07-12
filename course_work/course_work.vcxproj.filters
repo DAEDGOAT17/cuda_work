@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="RGB2GRAYScale.cu">
+    <CudaCompile Include="RGBtoBlur.cu">
       <Filter>src</Filter>
     </CudaCompile>
   </ItemGroup>
